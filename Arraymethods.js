@@ -111,7 +111,18 @@ console.log('lastIndexOf : ',lastIndexOf)
 // length
 console.log('length : ', fruits.length)
 
+// map
+const map = fruits.map(e=>e==='apple') //it return true of false  when give condition in map that returns boolean Value
+console.log('maped : ',map);
 
+// of
+const of = Array.of('apple','mango','orange')
+console.log('created using of : ',of);
+
+// pop
+const pop = of.pop()
+console.log('removed element : ', pop );
+console.log('remaining Array : ', of);
 
 
 
